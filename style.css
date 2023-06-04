@@ -8,9 +8,14 @@ body{
     margin-top: 0%;
     background-color: #4559d3;
 }
+
+
 #playBox{
     margin-left: 40%;
 }
+
+/* ClASES DONDE SE DEFINEN LOS COLORES DEL TABLERO */
+
 .yellow{
     background-color: antiquewhite;
 }
@@ -29,6 +34,10 @@ body{
 .pink{
     background-color: hotpink;
 }
+
+/* CLASES PARA LAS ESCALERAS, AQUI ACOMODA BIEN LA POSICION PARA QUE COINCIDA 
+CON LA FUNCION DONDE DICE EN QUE CASILLA DEBES CAER EN EL CASO DE LAS ESCALERAS 
+ES */
 #l1{
     position: absolute;
     top: 71%;
@@ -74,7 +83,7 @@ body{
     font-weight: bolder;
     font-family: sans-serif;
     position: absolute;
-    top: 5%;
+    top: 15%;
     left: 5%;
     text-align: center;
 }
@@ -126,6 +135,7 @@ body{
     left: 7%;
     text-align: center;
     cursor: pointer;
+    visibility: hidden;
 }
 
 #image_slide{
@@ -167,4 +177,5 @@ body{
     position: absolute;
     z-index: -1;
     background-color: rgb(252, 195, 81);
+    visibility: hidden;
 }
